@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "danish-valmani-reaperscans"
+version = "0.1.0"
+description = ""
+authors = ["KittGT42 <114111458+KittGT42@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^4.22.0"
+requests = "^2.32.3"
+lxml = "^5.2.2"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
